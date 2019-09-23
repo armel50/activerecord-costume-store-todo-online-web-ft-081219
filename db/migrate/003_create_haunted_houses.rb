@@ -9,7 +9,7 @@ class CreateHauntedHouses < ActiveRecord[5.1]
       t.boolean :family_friendly 
       t.datetime :opening_date 
       t.datetime :closing_date 
-      t.text :long_description
+      t.long :long_description
     end
   end
 end
